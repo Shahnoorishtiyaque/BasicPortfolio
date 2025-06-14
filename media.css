@@ -1,7 +1,14 @@
-@media (max-width:1200px) {
+@media (max-width:700px) {
+    html{
+        font-size: 10px;
+        box-sizing: border-box;
+    }
     .mainNav{
         justify-content: center;
         padding: 0;
+        height: 10vh;
+    }
+    .fakeNav{
         height: 10vh;
     }
     span{
@@ -37,4 +44,42 @@
         height: 100%;
     }
 
+    .page2 .section{
+        flex-direction: column;
+        align-items: center;
+        height: 90%;
+    }
+    .page2 .section .left,.page2 .section .right {
+        height: 50%;
+        width: 100%;
+        background-color: white;
+    }
+
+.page3{
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+.page4 .section{
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+}
+
+.page4 .left{
+    height: 50%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.page4 .right{
+    width: 80%;
+}
+.contimg{
+    width: 65%;
+}
+.contimg p{
+    text-align: end;
+        font-size: 3rem;
+    }
 }
