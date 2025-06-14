@@ -31,7 +31,7 @@
     .page1 {
         flex-direction: column;
         align-items: center;
-        height: 95vh;
+        height: 90vh;
     }
     .page1 .right{
         height: 60%;
