@@ -48,7 +48,7 @@
         --bgcolor1: rgb(0, 44, 97);
         --titlecolor: rgb(255, 255, 255);
         --subTitle: rgb(255, 255, 255);
-        --transparent: rgba(0, 0, 0, 0.5);
+        --transparent: rgba(246, 246, 246, 0.2);
         --theme: linear-gradient(to right, var(--bgcolor1), var(--bgcolor2));
     }
 
@@ -268,10 +268,6 @@
 
     .skilltext p {
         color: var(--subTitle);
-    }
-
-    .box6 {
-        background-color: rgba(0, 0, 0, 0);
     }
 
     .page4 .section {
