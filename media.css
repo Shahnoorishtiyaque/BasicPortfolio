@@ -1,15 +1,16 @@
-@media (max-width:1200px) {
+@media (orientation: portrait) {
     html{
-        font-size: 10px;
+        font-size: 5px;
         box-sizing: border-box;
     }
     .mainNav{
         justify-content: center;
         padding: 0;
-        height: 10vh;
+        height: 5vh;
     }
     .fakenav{
-        height: 10vh;
+        height: 5vh;
+        background-color: red;
     }
     span{
         display: none;
@@ -20,6 +21,9 @@
     .mainNav ul{
         gap: 0;
     }
+    nav{
+        height: 10vh;
+    }
     .mainNav .left:hover{
         padding: 0;
         border-radius: 0;
@@ -28,40 +32,62 @@
     .page1 {
         flex-direction: column;
         align-items: center;
+        height: 95vh;
     }
-    .page1 .left,.page1 .right{
-        height: 45vh;
-        padding: 0;
-    }
-    .page1 img{
-        /* background-color: aqua; */
+    .page1 .right{
+        height: 60%;
+        width: 90%;
+        padding: 10px;
+        /* background-color: blue; */
+        
+    } 
+    .page1 .left{
+        height: 40%;
+        width: 90%;
     }
       .posAbs {
         object-fit: fill;
         position: absolute;
-        top: 0;
-        left: 20;
-        height: 100%;
+        top: 10%;
+        left: 10%;
+        height: 80%;
     }
-
+    .myimg{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        width:auto;
+        height: 80%;
+    }
     .page2 .section{
         flex-direction: column;
         align-items: center;
-        height: 90%;
+        height: 90vh;
     }
-    .page2 .section .left,.page2 .section .right {
-        height: 50%;
+    .page2 .section .left{
+        height: 60%;
         width: 100%;
+        /* background-color: white; */
     }
+    .page2 .section .right{
+        height: 40%;
+        width: 100%;
 
-.page3{
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw;
-}
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .page2 p {
+        color: var(--titlecolor);
+        font-size: 3rem;
+    }
+    .code-img{
+        height: auto;
+        width: 60%;
+    }
 .page4 .section{
     flex-direction: column;
-    width: 100vw;
+    height: 85vh;
     align-items: center;
 }
 
@@ -81,4 +107,28 @@
     text-align: end;
         font-size: 3rem;
     }
+
+
+
+
+    /*  */
+.page3 .section{
+    height: 90vh;
+    gap: 1%;
+    grid-template-columns: 100vw;
+    grid-template-rows: 17% 17% 17% 17% 17%;
 }
+.box .skillicon {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        object-fit: cover;
+    }
+
+nav{
+    height: 10%;
+}
+
+}
+
+
