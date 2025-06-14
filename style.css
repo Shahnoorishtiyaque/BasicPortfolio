@@ -337,3 +337,50 @@
     footer {
         height: 5vh;
     }
+
+
+
+
+
+
+@media (max-width:500px) {
+    .mainNav{
+        justify-content: center;
+        padding: 0;
+        height: 10vh;
+    }
+    span{
+        display: none;
+    }
+    .mainNav a:hover{
+        background: var(--theme);
+    }
+    .mainNav ul{
+        gap: 0;
+    }
+    .mainNav .left:hover{
+        padding: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .page1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .page1 .left,.page1 .right{
+        height: 45vh;
+        padding: 0;
+    }
+    .page1 img{
+        /* background-color: aqua; */
+    }
+      .posAbs {
+        object-fit: fill;
+        position: absolute;
+        top: 0;
+        left: 20;
+        height: 100%;
+    }
+
+    */
+}
