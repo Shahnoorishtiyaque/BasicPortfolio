@@ -7,6 +7,8 @@
     <title>Shahnoor Ishtiyaque</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body id="body">
@@ -27,8 +29,8 @@
     </nav>
     <div class="fakenav"></div>
     <div class="page1">
-        <div class="left">
-            <div>
+        <div class="left" data-aos="fade-right">
+            <div class="heading">
                 <p>Hi,</p>
                 <h1>I am Shahnoor Ishtiyaque!</h1>
                 <h5>Frontend Developer</h5>
@@ -39,16 +41,16 @@
         </div>
         <div class="right">
             <div class="bgimg">
-                <img src="images/bgimg.png" alt="">
+                <img src="images/bgimg.png" alt="" data-aos="fade-down">
             </div>
             <div class="posAbs">
-                <img src="images/IconLeft.svg" alt="">
+                <img src="images/IconLeft.svg" alt="" data-aos="fade-left">
             </div>
             <div class="posAbs">
-                <img src="images/IconRight.svg" alt="">
+                <img src="images/IconRight.svg" alt="" data-aos="fade-right">
             </div>
             <div class="myimg posAbs">
-                <img src="images/MyPic.png" alt="">
+                <img src="images/MyPic.png" alt="" data-aos="fade-up">
                 <!-- <img src="gibhli.png" alt=""> -->
             </div>
 
@@ -57,14 +59,14 @@
 
     <div class="page2" id="page2">
         <div class="fakenav"></div>
-        <nav>
+        <nav data-aos="flip-left">
             <h1>
                 <ul>About me</ul>
             </h1>
         </nav>
         <div class="section">
             <div class="left">
-                <p>Hi! I'm Shahnoor Ishtiyaque, a Frontend Developer and a Computer Science (IoT) student at Government
+                <p data-aos="fade-right">Hi! I'm Shahnoor Ishtiyaque, a Frontend Developer and a Computer Science (IoT) student at Government
                     Engineering College Siwan, graduating in 2026.
 
                     I specialize in building responsive, interactive, and clean web interfaces using technologies like
@@ -75,7 +77,7 @@
                     constantly learning, working on new projects, and open to collaboration.</p>
             </div>
             <div class="right">
-                <div class="code-img">
+                <div class="code-img" data-aos="fade-left">
                     <img src="images/coding.png" alt="">
                 </div>
 
@@ -84,11 +86,11 @@
     </div>
     <div class="page3" id="page3">
         <div class="fakenav"></div>
-        <nav>
+        <nav data-aos="flip-left">
             <h1>Skills</h1>
         </nav>
         <div class="section">
-            <div class="box">
+            <div class="box" data-aos="fade-right">
                 <div class="skillicon">
                     <img src="images/html.webp" alt="">
                 </div>
@@ -98,7 +100,7 @@
                         standards.</p>
                 </div>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-left">
                 <div class="skillicon">
                     <img src="images/css.png" alt="">
                 </div>
@@ -108,7 +110,7 @@
                         animations, and media queries.</p>
                 </div>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-right">
                 <div class="skillicon">
                     <img src="images/js.webp" alt="">
                 </div>
@@ -118,7 +120,7 @@
                         and basic form validation.</p>
                 </div>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-left">
                 <div class="skillicon">
                     <img src="images/c.png" alt="">
                 </div>
@@ -128,7 +130,7 @@
                         creating functions, working with arrays, and using pointers</p>
                 </div>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-right">
                 <div class="skillicon">
                     <img src="images/cpp.png" alt="">
                 </div>
@@ -143,32 +145,32 @@
 
     <div class="page4" id="page4">
         <div class="fakenav"></div>
-        <nav>
+        <nav data-aos="flip-left">
             <h1>Contact me</h1>
         </nav>
         <div class="section">
             <div class="left">
-                <div class="cont-icon">
+                <div class="cont-icon" data-aos="fade-right">
                     <div class="conticonimg">
                         <img src="images/mail.svg" id="mail" alt="">
                     </div>
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shahnoorishtiyaque687@gmail.com"
                         target="_blank">shahnoorishtiyaque687@gmail.com</a>
                 </div>
-                <div class="cont-icon">
+                <div class="cont-icon" data-aos="fade-right">
                     <div class="conticonimg">
                         <img src="images/linkedin.svg" id="linkedin" alt="">
                     </div>
                     <a href="https://www.linkedin.com/in/shahnoor-ishtiyaque-496843297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
                         target="_blank">Shahnoor Ishtiyaque</a>
                 </div>
-                <div class="cont-icon">
+                <div class="cont-icon" data-aos="fade-right">
                     <div class="conticonimg">
                         <img src="images/phone-call.svg" id="call" alt="">
                     </div>
                     <a href="tel:+917547899822">7547899822</a>
                 </div>
-                <div class="cont-icon">
+                <div class="cont-icon" data-aos="fade-right">
                     <div class="conticonimg">
                         <img src="images/whatsapp-icon.svg" id="WA" alt="">
                     </div>
@@ -176,7 +178,7 @@
                 </div>
             </div>
             <div class="right">
-                <div class="contimg">
+                <div class="contimg" data-aos="fade-left">
                     <img src="images/contact.png" alt="">
                     <p>Shahnoor Ishtiyaque</p>
                 </div>
@@ -187,6 +189,11 @@
     <footer>
     </footer>
     <script src="script.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
 </body>
 
 </html>
