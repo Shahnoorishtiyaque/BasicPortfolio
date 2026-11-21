@@ -5,8 +5,8 @@ import './styles.css';
 
 const projects = [
   { number: '01', title: 'Al-Shifa Homeo Clinic', type: 'Full-stack healthcare', description: 'A responsive clinic platform connecting a React experience to a Spring Boot REST API and cloud-hosted MySQL.', stack: ['React', 'Spring Boot', 'MySQL', 'Docker'], tone: 'mint', mark: 'AS', github: 'https://github.com/Shahnoorishtiyaque/al-shifa-homoeo-clinic', demo: 'https://al-shifa-homoeo-clinic.vercel.app/' },
-  { number: '02', title: 'Personal Portfolio', type: 'Web experience', description: 'A personal showcase for projects, technical strengths, and experience, with an animated interface and contact flow.', stack: ['React', 'Tailwind CSS', 'Vercel'], tone: 'blue', mark: '↗', github: 'https://github.com/Shahnoorishtiyaque', demo: 'https://shahnoor.vercel.app/' },
-  { number: '03', title: 'Interactive Tic Tac Toe', type: 'Browser game', description: 'A lightweight game with live win and draw evaluation, dynamic state, and fluid board animations across screen sizes.', stack: ['JavaScript', 'HTML', 'CSS'], tone: 'peach', mark: '×○', github: 'https://github.com/Shahnoorishtiyaque', demo: 'https://tictactoe-9yj6.vercel.app/' },
+  { number: '02', title: 'Personal Portfolio', type: 'Web experience', description: 'A personal showcase for projects, technical strengths, and experience, with an animated interface and contact flow.', stack: ['React', 'Tailwind CSS', 'Vercel'], tone: 'blue', mark: '↗', github: 'https://github.com/Shahnoorishtiyaque/BasicPortfolio', demo: 'https://shahnoor.vercel.app/' },
+  { number: '03', title: 'Interactive Tic Tac Toe', type: 'Browser game', description: 'A lightweight game with live win and draw evaluation, dynamic state, and fluid board animations across screen sizes.', stack: ['JavaScript', 'HTML', 'CSS'], tone: 'peach', mark: '×○', github: 'https://github.com/Shahnoorishtiyaque/TICTACTOE', demo: 'https://tictactoe-9yj6.vercel.app/' },
 ];
 const skillGroups = [
   ['Languages', 'Java', 'JavaScript', 'C++', 'C'],
