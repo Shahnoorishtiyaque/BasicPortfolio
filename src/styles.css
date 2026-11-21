@@ -48,3 +48,21 @@
 @media(prefers-reduced-motion:reduce){.reveal,.project-card,.button,.portrait-frame,.skill-row,.contact-link,.nav>a:after{transition:none!important;animation:none!important;transform:none!important}.reveal{opacity:1!important}}
 
 .project-bottom>a{display:inline-flex;align-items:center;gap:5px;transition:color .2s}.project-bottom>a:hover{color:var(--lime)}
+
+.nav-resume{display:inline-flex;align-items:center;gap:7px;color:#d8dbd1;border:1px solid #3c4037;border-radius:999px;padding:9px 13px;transition:border-color .2s,background .2s,color .2s}
+.nav-resume:hover{border-color:#c7f36b80;background:#c7f36b0c;color:var(--lime)}
+.project-preview{height:152px;position:relative;overflow:hidden;margin:-20px -21px 15px;border-bottom:1px solid #2d302a;background:linear-gradient(135deg,#20251c,#10120f)}
+.project-preview iframe{width:100%;height:100%;border:0;background:#fff;pointer-events:none}
+.preview-overlay{position:absolute;inset:0;display:flex;align-items:flex-end;justify-content:flex-end;padding:10px;background:linear-gradient(180deg,transparent 48%,#090b09bd);color:#f2f4ed;font-size:10px;opacity:0;transition:opacity .2s}
+.preview-overlay span{display:inline-flex;align-items:center;gap:6px}
+.project-preview:hover .preview-overlay,.project-preview:focus-within .preview-overlay{opacity:1}
+@media(max-width:850px){.project-preview{height:230px}}
+@media(max-width:620px){.nav-resume{justify-content:center;margin-top:10px}.project-preview{height:190px;margin:-17px -17px 14px}}
+
+.portfolio-preview-art{position:relative;overflow:hidden;display:flex;height:100%;flex-direction:column;justify-content:center;gap:9px;padding:20px 25px;background:radial-gradient(ellipse at 80% 40%,#c7f36b19,transparent 45%),#10120f;color:#e8e9e3}
+.portfolio-preview-art>span{font:7px var(--mono);letter-spacing:.12em;color:#a7ab9e}
+.portfolio-preview-art i{font-style:normal;color:var(--lime);margin-left:8px}
+.portfolio-preview-art strong{position:relative;z-index:1;font:800 clamp(20px,3vw,31px)/.95 var(--serif);letter-spacing:-.07em}
+.portfolio-preview-art em{font-style:normal;color:var(--lime)}
+.portfolio-preview-art small{font:6px var(--mono);letter-spacing:.12em;color:#999d92}
+.preview-art-orb{position:absolute;right:30px;top:50%;width:95px;height:95px;transform:translateY(-50%);border:1px solid #c7f36b45;border-radius:50%;box-shadow:0 0 0 14px #c7f36b08,0 0 0 28px #c7f36b05}
