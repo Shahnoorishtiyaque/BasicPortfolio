@@ -16,5 +16,4 @@ Create a production build with `npm run build`.
 - Replace `public/portrait.jpg` to update the profile photo.
 - Update project URLs and content in `src/main.jsx` as live demos become available.
 - The contact button opens the email client for `shahnoorishtiyaque687@gmail.com`.
-
--- No backend is needed for this static portfolio.
+No backend is needed for this static portfolio.
