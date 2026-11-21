@@ -51,10 +51,7 @@
 
 .nav-resume{display:inline-flex;align-items:center;gap:7px;color:#d8dbd1;border:1px solid #3c4037;border-radius:999px;padding:9px 13px;transition:border-color .2s,background .2s,color .2s}
 .nav-resume:hover{border-color:#c7f36b80;background:#c7f36b0c;color:var(--lime)}
-@media(max-width:850px)
 @media(max-width:620px){.nav-resume{justify-content:center;margin-top:10px}}
 
 
 
-@media(max-width:850px)
-@media(max-width:620px)
